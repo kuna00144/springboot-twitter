@@ -1,5 +1,5 @@
 # JDK 21 기반의 OpenJDK 이미지를 사용
-FROM eclipse-temurin:21-jre-alpine
+FROM eclipse-temurin:21-jdk-jammy
 
 # 작업 디렉토리 설정
 WORKDIR /app
